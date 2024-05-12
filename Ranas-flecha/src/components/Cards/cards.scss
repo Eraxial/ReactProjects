@@ -1,0 +1,30 @@
+.card {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 15px;
+
+  img {
+    border-radius: 15px;
+    width: 250px;
+    aspect-ratio: 16/13;
+    object-fit: cover;
+  }
+
+  h3, p {
+    padding-block: 5px;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+.card2 {
+  margin-top: 100px;
+}
+
+.card3 {
+  margin-top: 200px;
+}

@@ -1,0 +1,25 @@
+.home {
+  min-height: calc(100vh - 100px);
+  display: grid;
+  place-items: center;
+
+  section {
+    margin-top: -100px;
+    display: grid;
+    place-items: center;
+    color: white;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 25px;
+
+    h1 {
+      font-size: 4rem;
+      font-family: rick;
+      color: var(--main-font-color);
+      text-shadow: 0 0 15px var(--shadow-color);
+      text-align: center;
+      text-wrap: pretty;
+      line-height: 6rem;
+    }
+  }
+}

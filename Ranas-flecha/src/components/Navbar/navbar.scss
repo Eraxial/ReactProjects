@@ -1,0 +1,24 @@
+@font-face {
+  font-family: ranas;
+  src: url('/fonts/PermanentMarker-Regular.ttf');
+}
+
+.navbar {
+  padding-block: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--main-color);
+  h1 {
+    font-family: ranas;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    
+    li{
+      margin-block: auto;
+    }
+  }
+}

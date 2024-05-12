@@ -1,0 +1,18 @@
+:root {
+  --main-font-color: #08b2ca;
+  --main-button-color: #078d9f;
+  --shadow-color: #81dc5d;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: rick;
+  src: url('/assets/fonts/get_schwifty.ttf');
+}
+
+body {
+  background-color: #1a1c1e;
+}

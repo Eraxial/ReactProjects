@@ -1,0 +1,19 @@
+button {
+  width: calc(7rem + 3vw);
+  padding-block: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  box-shadow: none;
+  background-color: var(--button-color);
+  color: white;
+  transition: filter 0.2s, translate 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+
+  &:active {
+    translate: (0 2px);
+  }
+}

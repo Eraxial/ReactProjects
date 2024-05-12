@@ -1,0 +1,21 @@
+.buttonrick {
+  background-color: var(--main-font-color);
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-inline: 10px;
+  width: 120px;
+  transition: background-color 0.1s, filter 0.1s, color 0.1s;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+
+  &:active {
+    background-color:var(--shadow-color);
+    color: black;
+  }
+}

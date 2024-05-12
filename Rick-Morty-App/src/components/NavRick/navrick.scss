@@ -1,0 +1,41 @@
+.nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 15px;
+  img {
+    max-width: 70px;
+    cursor: pointer;
+  }
+
+  ul {
+    margin-left: 25px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    li{
+      list-style-type: none;
+      font-family: rick;
+      padding-top: 20px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: var(--main-font-color);
+      transition: color 0.1s;
+  
+      &:hover {
+        color: var(--shadow-color);
+      }
+
+      &:active {
+        color: white;
+      }
+    }
+  }
+
+  .buttonrick {
+    justify-self: flex-end;
+  }
+}

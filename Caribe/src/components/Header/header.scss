@@ -1,0 +1,9 @@
+header {
+  padding: 350px 100px 50px 0;
+  text-align: end;
+  background: url('/assets/bg.jpg') center / cover;
+  h1 {
+    font-size: calc(2rem + 2vw);
+    color: var(--title-color);
+  }
+}

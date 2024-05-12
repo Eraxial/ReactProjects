@@ -1,0 +1,25 @@
+.section1 {
+  background: linear-gradient(
+    var(--body-color) 0%, 
+    var(--body-color) 40%, 
+    var(--body-alter-color) 40%,
+    var(--body-alter-color) 65%,
+    var(--body-color) 65%, 
+    var(--body-color) 100%
+    );
+  h2 {
+    font-size: calc(1.5rem + 1.5vw);
+  }
+
+  article {
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .cardList {
+    padding-block: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}

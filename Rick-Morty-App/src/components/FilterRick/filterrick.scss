@@ -1,0 +1,81 @@
+.filter {
+  display: grid;
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+  gap: 10px;
+  place-items: center;
+
+  button {
+    background-color: transparent;
+    border: 2px solid var(--main-button-color);
+    color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 10px;
+    font-family: rick;
+    transition: background-color 0.1s;
+
+    &:hover {
+      background-color: var(--main-button-color);
+    }
+  }
+
+  .label {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid var(--main-button-color);
+    color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 10px;
+    font-family: rick;
+    transition: background-color 0.1s;
+  }
+
+  label {
+    grid-column: 6 / 7;
+  }
+
+  .buttons {
+    grid-column: 1 / 13;
+    button {
+      margin-inline: 15px;
+    }
+  }
+}
+
+/* Change cursor when the label is hovered */
+
+input[type=radio] {
+  display: none;
+}
+/* Hide the ugly default radio styling */
+
+input[type=radio]:checked + p {
+  opacity: 1;
+  background-color: var(--main-button-color);
+}
+
+.search {
+  grid-column: 5 / 8;
+  width: 100%;
+  color: var(--main-button-color);
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--main-button-color);
+
+  &:focus {
+    outline: none;
+    caret-color: var(--shadow-color);
+    color: var(--shadow-color);
+  }
+
+  @media (width <= 850px) {
+    grid-column: 4 / 9;
+  }
+
+  @media (width <= 450px) {
+    grid-column: 1 / 13;
+  }
+}
+
